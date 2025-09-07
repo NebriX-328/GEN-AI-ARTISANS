@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artisan Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Artisan</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="marketplace.html">Marketplace</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="competitions.html">Competitions</a></li>
+        <li><a href="ai-explore.html">AI Explore</a></li>
+        <li><a href="login.html" id="login-link">Login</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <section class="hero">
+      <h1>Welcome to Artisan Marketplace</h1>
+      <p>Discover unique handmade crafts from skilled artisans.</p>
+    </section>
+
+  <!-- Marketplace -->
+  <section class="marketplace">
+    <h2>Discover Unique Handmade Creations</h2>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Handmade Pottery">
+        <div class="product-info">
+          <h3>Handmade Pottery Vase</h3>
+          <p class="price">₹1,200</p>
+          <p class="artist">By: Aditi Sharma</p>
+          <button onclick="location.href='artist-story.html'">Art & Artist Story</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Madhubani Painting">
+        <div class="product-info">
+          <h3>Madhubani Folk Painting</h3>
+          <p class="price">₹3,500</p>
+          <p class="artist">By: Rajeev Kumar</p>
+          <button onclick="location.href='artist-story.html'">Art & Artist Story</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Handwoven Shawl">
+        <div class="product-info">
+          <h3>Handwoven Woolen Shawl</h3>
+          <p class="price">₹2,000</p>
+          <p class="artist">By: Meera Devi</p>
+          <button onclick="location.href='artist-story.html'">Art & Artist Story</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ArtisansHub. All rights reserved.</p>
+  </footer>
+
+  <script src="js/marketplace.js"></script>
+</body>
+</html>
